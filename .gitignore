@@ -1,0 +1,23 @@
+# Secrets: keep local and deployment-only
+.env
+.env.*
+!.env.example
+!.env.local.example
+backend/.env
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+
+# Python environments and caches
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
